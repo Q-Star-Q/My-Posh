@@ -11,7 +11,7 @@ the configuration of my **PowerShell** - posh on Windows Terminal (Windows 10) .
     
 - **2. Install PowerShell** 
   - download **PowerShell** at Microsoft Store. 
-  - set default shell as **PowerShell** (***NOT*** Windows PowerShell) 
+  - set default shell as **PowerShell** (***NOT*** *Windows PowerShell*) 
   
 - **3. change the terminal background color** 
   - Duplicate the "One Half Dark" theme and rename it (edited by VScode) 
