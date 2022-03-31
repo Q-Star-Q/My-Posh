@@ -20,7 +20,7 @@ the configuration of my **PowerShell** - posh on Windows Terminal (Windows 10) .
 
 - **4. Install the Command-line installer: Scoop**
   - read https://scoop.sh , copy  `iwr -useb get.scoop.sh | iex` 
-  - execute `iwr -useb get.scoop.sh | iex` wait ofr finished.
+  - execute `iwr -useb get.scoop.sh | iex` wait for finished.
   - execute `scoop install curl sudo jq`
 
 - 
