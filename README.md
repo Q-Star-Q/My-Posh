@@ -8,7 +8,7 @@ the configuration of my **PowerShell** - posh on Windows Terminal (Windows 10) .
   - **Acrylic** 
     - Enable acrylic: on  
     - Acrylic opacity: 50%  
-  ***If you don't have a Nerd font, switch to https://www.nerdfonts.com***
+    - ***If you don't have a Nerd font, switch to https://www.nerdfonts.com***
     
 - **2. Install PowerShell** 
   - download **PowerShell** at Microsoft Store. 
@@ -55,7 +55,7 @@ the configuration of my **PowerShell** - posh on Windows Terminal (Windows 10) .
   ```
   - input `esc` to quit `INSERT`.  
   - input `:wqa` to save all and quit currently.  
-  ***You can open another session and make sure the aliases are working. such as `ll | less`***  
+  - ***You can open another session and make sure the aliases are working. such as `ll | less`***  
 
 **8. Install Oh-My-Posh**  
   - execute `Install-Module posh-git -Scope CurrentUser -Force`  
