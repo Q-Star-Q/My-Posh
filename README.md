@@ -8,6 +8,7 @@ the configuration of my **PowerShell** - posh on Windows Terminal (Windows 10) .
   - **Acrylic** 
     - Enable acrylic: on 
     - Acrylic opacity: 50% 
+  - ***If you don't have a Nerd font, switch to https://www.nerdfonts.com***
     
 - **2. Install PowerShell** 
   - download **PowerShell** at Microsoft Store. 
@@ -55,4 +56,23 @@ the configuration of my **PowerShell** - posh on Windows Terminal (Windows 10) .
   - input `esc` to quit `INSERT`. 
   - input `:wqa` to save all and quit currently. 
   - ***You can open another session and make sure the aliases are working. such as `ll | less`*** 
-   
+
+**8. Install Oh-My-Posh** 
+  - execute `Install-Module posh-git -Scope CurrentUser -Force` 
+  - execute `Install-Module oh-my-posh -Scope CurrentUser -Force` 
+  - edit `user_profile.ps1` 
+  ```
+  # Prompt
+  Import-Module posh-git
+  Import-Module oh-my-posh
+  Set-PoshPrompt Paradox 
+  # Alias 
+  Set-Alias vim nvim 
+  Set_Alias ll ls 
+  Set-Alias g git 
+  Set-Alias grep findstr 
+  Set-Alias tig 'C:\Program Files\Git\usr\bin\tig.exe' 
+  Set-Alias less 'C:\Program Files\Git\usr\bin\less.exe' 
+  ```
+  - input `esc` and `:wq` . 
+  - wait for downloads finished. 
