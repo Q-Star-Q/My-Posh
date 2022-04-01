@@ -46,3 +46,13 @@ the configuration of my **PowerShell** - posh on Windows Terminal (Windows 10) .
   ```
   - input key `esc` to quit `INSERT` mode. 
   - input `:wq` to save and quit currently. 
+  - execute `nvim $PROFILE.CurrentUserCurrentHost` to use neovim to edit the file (C:\Documents\PowerShell\Microsoft.PowerShell_profile.ps1)
+  - (Neovim) input key `i` to insert.
+  ```
+  . $env:USERPROFILE\.config\powershell\user_profile.ps1
+
+  ```
+  - input `esc` to quit `INSERT`. 
+  - input `:wqa` to save all and quit currently. 
+  - ***You can open another session and make sure the aliases are working. such as `ll | less`*** 
+   
